@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=IntelliJ IDEA
+Exec="/home/alessandro/.local/share/JetBrains/Toolbox/apps/intellij-idea/bin/idea" %u
+Icon=jetbrains-idea
+Terminal=false
+StartupWMClass=jetbrains-idea
+Categories=Development;IDE;

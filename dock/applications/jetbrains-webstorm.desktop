@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=WebStorm
+Exec="/home/alessandro/.local/share/JetBrains/Toolbox/apps/webstorm/bin/webstorm" %u
+Icon=jetbrains-webstorm
+Terminal=false
+StartupWMClass=jetbrains-webstorm
+Categories=Development;IDE;

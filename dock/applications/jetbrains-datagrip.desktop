@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=DataGrip
+Exec="/home/alessandro/.local/share/JetBrains/Toolbox/apps/datagrip/bin/datagrip" %u
+Icon=jetbrains-datagrip
+Terminal=false
+StartupWMClass=jetbrains-datagrip
+Categories=Development;IDE;

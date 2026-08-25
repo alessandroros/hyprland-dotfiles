@@ -30,7 +30,7 @@ require("default.hypr.toggles")
 
 -- Auto-assign apps to their workspace: 1 Browser, 2 Frontend, 3 Backend,
 -- 4 Database, 5 Chat, 6 Project Management.
-o.window("google-chrome", { workspace = "1" })
+o.window("(google-chrome|chromium|brave-browser|firefox)", { workspace = "1" })
 o.window("jetbrains-webstorm", { workspace = "2" })
 o.window("(jetbrains-idea|jetbrains-rider)", { workspace = "3" })
 o.window("jetbrains-datagrip", { workspace = "4" })

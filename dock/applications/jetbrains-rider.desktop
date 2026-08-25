@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Rider
+Exec="/home/alessandro/.local/share/JetBrains/Toolbox/apps/rider/bin/rider" %u
+Icon=jetbrains-rider
+Terminal=false
+StartupWMClass=jetbrains-rider
+Categories=Development;IDE;
