@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "idle": {
+    "screensaver": 150,
+    "lock": 300
+  },
+  "bar": {
+    "position": "top",
+    "transparent": false,
+    "centerAnchor": "alessandro.workspaces",
+    "layout": {
+      "left": [
+        {
+          "id": "omarchy.menu"
+        },
+        {
+          "id": "filemanager",
+          "type": "command",
+          "text": "",
+          "tooltip": "File manager",
+          "onClick": "omarchy launch nautilus"
+        },
+        {
+          "id": "settings",
+          "type": "command",
+          "text": "",
+          "tooltip": "Impostazioni",
+          "onClick": "omarchy menu toggle system"
+        },
+        {
+          "id": "cpu-net"
+        },
+        {
+          "id": "omarchy.indicators"
+        }
+      ],
+      "center": [
+        {
+          "id": "alessandro.workspaces"
+        }
+      ],
+      "right": [
+        {
+          "id": "omarchy.clock",
+          "format": "dddd HH:mm",
+          "formatAlt": "d MMMM 'W'ww yyyy",
+          "verticalFormat": "HH\n—\nmm"
+        },
+        {
+          "id": "omarchy.weather"
+        },
+        {
+          "id": "omarchy.keyboard-layout"
+        },
+        {
+          "id": "omarchy.system-update"
+        },
+        {
+          "id": "omarchy.tray"
+        },
+        {
+          "id": "omarchy.agents"
+        },
+        {
+          "id": "omarchy.bluetooth"
+        },
+        {
+          "id": "omarchy.network"
+        },
+        {
+          "id": "omarchy.audio"
+        },
+        {
+          "id": "omarchy.monitor"
+        },
+        {
+          "id": "omarchy.power"
+        },
+        {
+          "id": "poweractions",
+          "type": "command",
+          "text": "",
+          "tooltip": "Spegni / Riavvia / Esci",
+          "onClick": "omarchy menu toggle system"
+        }
+      ]
+    }
+  },
+  "plugins": []
+}

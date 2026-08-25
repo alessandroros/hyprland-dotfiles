@@ -1,0 +1,5 @@
+# User overrides for Omarchy shell surfaces. Merges on top of the active
+# theme's shell.toml, key by key — only what's listed here is overridden.
+
+[font]
+base-size = 15
