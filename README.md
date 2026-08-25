@@ -24,6 +24,12 @@ The idea: instead of remembering "where did I leave X", each workspace has one j
 
 ![Workspace bar widget](docs/workspace-bar.png)
 
+## Screenshot
+
+Right monitor (DP-2), showing the workspace bar and terminal setup in action:
+
+![Right monitor](docs/right-monitor.png)
+
 ## Install
 
 ```sh
