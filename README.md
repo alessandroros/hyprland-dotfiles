@@ -30,10 +30,21 @@ Right monitor (DP-2), showing the workspace bar and terminal setup in action:
 
 ![Right monitor](docs/right-monitor.png)
 
+## Dock
+
+The bottom dock is [`nwg-dock-hyprland`](https://github.com/nwg-piotr/nwg-dock-hyprland) (`pacman -S nwg-dock-hyprland`), started from `hypr/autostart.lua` pinned to the right monitor (`-o DP-2` — adjust to your own output name from `hyprctl monitors`).
+
+Pinned icons aren't part of `~/.config` — the dock reads them from `~/.cache/nwg-dock-pinned` (one window class per line). This repo keeps a copy at `dock/nwg-dock-pinned`; copy it into place after installing (see below).
+
+If an app's icon doesn't show up in the dock, it looks for a `.desktop` file named after the window *class* (not the app name) under `~/.local/share/applications/`. `dock/applications/` holds the one this needed for WhatsApp (a web app, so its class is auto-generated and doesn't match its real `.desktop` file). The Omarchy Agent (Claude) icon needed the same trick, but that `.desktop` file isn't included here since it points at a JetBrains-cached copy of Anthropic's logo — recreate it locally with `Icon=` pointing at your own copy if you want it.
+
 ## Install
 
 ```sh
 git clone https://github.com/alessandroros/hyprland-dotfiles.git
 cp -a hyprland-dotfiles/hypr/. ~/.config/hypr/
 cp -a hyprland-dotfiles/omarchy/. ~/.config/omarchy/
+cp hyprland-dotfiles/dock/nwg-dock-pinned ~/.cache/nwg-dock-pinned
+cp hyprland-dotfiles/dock/applications/*.desktop ~/.local/share/applications/
+omarchy theme set tokyo-night
 ```
