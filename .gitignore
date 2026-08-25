@@ -1,0 +1,23 @@
+# Secrets and machine-specific credentials
+*.env
+.env.*
+*secret*
+*token*
+*credentials*
+*.pem
+*.key
+
+# Local/machine-specific overrides not meant to be shared
+*.local
+*.local.*
+hypr/monitors.lua.local
+
+# Backups and editor/OS cruft
+*.bak
+*.swp
+*~
+.DS_Store
+
+# Omarchy runtime/private plugin state (not portable config)
+omarchy/plugins/*/state/
+omarchy/plugins/*/.cache/
