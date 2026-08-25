@@ -30,6 +30,9 @@
       "center": [
         {
           "id": "alessandro.workspaces"
+        },
+        {
+          "id": "bibek.focusd"
         }
       ],
       "right": [
@@ -45,9 +48,6 @@
         },
         {
           "id": "omarchy.system-update"
-        },
-        {
-          "id": "bibek.focusd"
         },
         {
           "id": "omarchy.microphone"
