@@ -46,5 +46,5 @@ cp -a hyprland-dotfiles/hypr/. ~/.config/hypr/
 cp -a hyprland-dotfiles/omarchy/. ~/.config/omarchy/
 cp hyprland-dotfiles/dock/nwg-dock-pinned ~/.cache/nwg-dock-pinned
 cp hyprland-dotfiles/dock/applications/*.desktop ~/.local/share/applications/
-omarchy theme set tokyo-night
+omarchy theme set ristretto
 ```
