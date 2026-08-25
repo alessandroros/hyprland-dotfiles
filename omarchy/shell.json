@@ -93,7 +93,7 @@
         {
           "id": "poweractions",
           "type": "command",
-          "text": "",
+          "text": "",
           "tooltip": "Spegni / Riavvia / Esci",
           "onClick": "omarchy menu toggle system"
         }
